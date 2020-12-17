@@ -1,0 +1,30 @@
+{
+  "name": "pair-programming",
+  "version": "1.0.0",
+  "description": "Problem to be solved in pair programming with interviewers",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "jest --config jest.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/narukaioh/pair-challenge.git"
+  },
+  "keywords": [
+    "frontend",
+    "challenge",
+    "pair",
+    "programming"
+  ],
+  "author": "Ju Dantas",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^26.3.0",
+    "babel-preset-latest": "^6.24.1",
+    "jest": "^26.4.2"
+  }
+}
